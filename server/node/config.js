@@ -17,6 +17,7 @@ module.exports = {
     // For non-card payments like iDEAL, live keys will redirect to real banking sites.
     publicKey: process.env.AFFIRM_PUBLIC_KEY,
     privateKey: process.env.AFFIRM_PRIVATE_KEY,
+    financialProduct: process.env.AFFIRM_FINANCIAL_KEY
   },
 
   // Server port.

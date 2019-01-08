@@ -10,11 +10,13 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "ngrok": "^3.1.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/node/server.js"
   },
   "repository": {
     "type": "git",
